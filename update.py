@@ -117,4 +117,4 @@ def _get_footer(users):
 def _storeHtml(html):
     import boto3
     s3 = boto3.resource('s3')
-    s3.Object('bikerid.es', 'munros/index.html').put(Body=json.dumps(html), ContentType='text/html')
+    s3.Object('bikerid.es', 'munros/index.html').put(Body=html, ContentType='text/html')
