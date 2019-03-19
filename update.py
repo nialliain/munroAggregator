@@ -73,7 +73,6 @@ def _grab_hills_for(user_id):
 
 
 def _get_footer(users):
-    #
         return '''
       markers = {}
 
@@ -119,4 +118,3 @@ def _storeHtml(html):
     import boto3
     s3 = boto3.resource('s3')
     s3.Object('bikerid.es', 'munros/index.html').put(Body=json.dumps(html), ContentType='text/html')
-s
