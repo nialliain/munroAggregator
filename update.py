@@ -79,7 +79,7 @@ def _get_footer(users):
       markers = {}
 
       function hideAsRequired() {
-        allUsers = ['Alan','Andrew','Niall']
+        allUsers = ['Alan','Andrew','Francesca','Niall']
         for (var i = 0; i < hills.length; i++) {
           var visible = true;
           for (var j=0;j<allUsers.length; j++) {
