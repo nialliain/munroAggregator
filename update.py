@@ -38,7 +38,7 @@ def _get_header(users):
               <b>Exclude Munros climbed by:</b><br />
               <input id="Alan" type="checkbox" checked onchange="hideAsRequired()"> Alan<br />
               <input id="Andrew" type="checkbox" checked onchange="hideAsRequired()"> Andrew<br />
-              <input id="Francesca" type="checkbox" checked onchange="hideAsRequired()"> Frances<br />
+              <input id="Francesca" type="checkbox" checked onchange="hideAsRequired()"> Francesca<br />
               <input id="Niall" type="checkbox" checked onchange="hideAsRequired()"> Niall
           </div>
         </div>
