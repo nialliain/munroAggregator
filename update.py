@@ -5,6 +5,7 @@ import requests
 def lambda_wrapper(event, context):
     users = [('Alan', 100011),
              ('Andrew', 54647),
+             ('Francesca', 56473),
              ('Niall', 1601)]
     html = _get_header(users) + _get_data(users) + _get_footer(users)
     _storeHtml(html)
@@ -37,6 +38,7 @@ def _get_header(users):
               <b>Exclude Munros climbed by:</b><br />
               <input id="Alan" type="checkbox" checked onchange="hideAsRequired()"> Alan<br />
               <input id="Andrew" type="checkbox" checked onchange="hideAsRequired()"> Andrew<br />
+              <input id="Francesca" type="checkbox" checked onchange="hideAsRequired()"> Frances<br />
               <input id="Niall" type="checkbox" checked onchange="hideAsRequired()"> Niall
           </div>
         </div>
